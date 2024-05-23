@@ -1,0 +1,3 @@
+SELECT * FROM `a` WHERE `b` NOT IN (SELECT `id` FROM `c` WHERE `property` LIKE '%egenskap%');
+
+Above SQL statement could be useful for when you wish to drag out specific rows of items from one database where the item doesn't exist in another select query.
